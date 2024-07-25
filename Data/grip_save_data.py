@@ -3,7 +3,7 @@ import pandas as pd
 import time
 
 # Serial port configuration
-serial_port = 'COM8'  # Replace with your serial port
+serial_port = 'COM14'  # Replace with your serial port
 baud_rate = 115200  # Replace with your baud rate
 
 grip = 'PointTripod'
@@ -16,7 +16,7 @@ ser.setDTR(False)
 file_name = grip + '_' + time.strftime('%m_%d_%H_%M_%S') + ".xlsx"
 
 # Create a DataFrame with the appropriate columns
-columns = ['sample', 'ax', 'ay', 'az', 'gx', 'gy', 'gz', 't', 's1', 's2', 's3', 's4', 's5', 's6', 's7', 's8']
+columns = [ 's1', 's2', 's3', 's4', 's5', 's6', 's7', 's8']
 df = pd.DataFrame(columns=columns)
 
 def add_to_dataframe(data):
