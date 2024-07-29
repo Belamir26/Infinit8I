@@ -74,10 +74,6 @@ void loop() {
     IMU.readSensor(ICM42605Data);
 
     // Serial Print
-
-
-
-    
     String dataString = String(IMU.getAccelX(), 6) + "," +
                         String(IMU.getAccelY(), 6) + "," +
                         String(IMU.getAccelZ(), 6) + "," +
