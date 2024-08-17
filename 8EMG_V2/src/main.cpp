@@ -73,6 +73,10 @@ void loop() {
     sensorEMG8 = ADC2.readADC(3);
     IMU.readSensor(ICM42605Data);
 
+  if(sensorEMG7>=65535){sensorEMG7=0;}
+  if(sensorEMG8>=65535){sensorEMG8=0;}
+  
+    \
     // Serial Print
     String dataString = String(IMU.getAccelX(), 6) + "," +
                         String(IMU.getAccelY(), 6) + "," +
