@@ -3,6 +3,9 @@
 #include <ADS1X15.h>
 #include "ICM42605_V2.h"
 
+#include "BluetoothSerial.h"
+
+
 /* ADC */
 //Class
 ADS1115 ADC1(ADS1015_ADDRESS);
@@ -28,6 +31,13 @@ int16_t ICM42605Data[7];
 unsigned long previousMillis = 0;
 const long interval = 5; // 200Hz -> 5ms interval
 
+
+#if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
+#error Bluetooth is not enabled! Please run `make menuconfig` to and enable it
+#endif
+
+BluetoothSerial SerialBT;
+
 void setup() {
   Serial.begin(115200);
   Serial.println("8EMG V2");
@@ -49,6 +59,7 @@ void setup() {
     Serial.println(status);
     while(1) {}
   }
+  SerialBT.begin("InifiteAiV4");
 }
 
 void loop() {
@@ -95,5 +106,11 @@ void loop() {
                         String(sensorEMG8 * f2, 3) + "," +
                         String(currentMillis);
     Serial.println(dataString);
+    SerialBT.println(dataString);
   }
+
+  while (millis() - currentMillis < 50)
+  {
+  }
+  
 }
