@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=SCL2 Pin=U5-9
+Removed Pin From Net: NetName=SDA2 Pin=U5-10
+Added Pin To Net: NetName=SDA2 Pin=U5-9
+Added Pin To Net: NetName=SCL2 Pin=U5-10
+Added Member To Class: ClassName=ESP32 Member=Component J1 BM06B-SRSS-TBT(LF)(SN)

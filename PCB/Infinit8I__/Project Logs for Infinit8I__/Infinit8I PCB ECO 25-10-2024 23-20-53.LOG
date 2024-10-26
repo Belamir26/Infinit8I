@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=FT-TX Pin=J1-2
+Removed Pin From Net: NetName=FT-RX Pin=J1-3
+Added Pin To Net: NetName=FT-RX Pin=J1-2
+Added Pin To Net: NetName=FT-TX Pin=J1-3
+Added Member To Class: ClassName=Sensors Member=Component R15 Resistor 4k7 +/-1% 0402 100 mW
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1

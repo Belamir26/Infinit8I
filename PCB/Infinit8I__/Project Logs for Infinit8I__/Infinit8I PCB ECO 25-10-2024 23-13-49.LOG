@@ -1,0 +1,97 @@
+Removed Pin From Net: NetName=C5R Pin=J3-1
+Removed Pin From Net: NetName=C5E Pin=J3-2
+Removed Pin From Net: NetName=C6R Pin=J3-3
+Removed Pin From Net: NetName=C6E Pin=J3-4
+Removed Pin From Net: NetName=C1R Pin=J6-1
+Removed Pin From Net: NetName=C1E Pin=J6-2
+Removed Pin From Net: NetName=C2R Pin=J6-3
+Removed Pin From Net: NetName=C2E Pin=J6-4
+Change Component Footprint: Designator=U2 Old Footprint=FP-DGS0010A-IPC_A New Footprint=FP-DGS0010A-MFG
+Change Component Footprint: Designator=U5 Old Footprint=FP-DGS0010A-IPC_A New Footprint=FP-DGS0010A-MFG
+Change Component Designator: OldDesignator=R14 NewDesignator=R15
+Change Component Designator: OldDesignator=R15 NewDesignator=R16
+Change Component Designator: OldDesignator=R16 NewDesignator=R14
+Change Managed Component Library Link : Designator=U2 Old VaultGUID=EF9826B0-7A94-41A0-BB28-292897F407F6 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=a25efd9f-891f-412d-82b9-b5bca20da700 New ItemGUID=2E6E2168-9EC8-4055-94E3-9149772017F1 Old RevisionGUID=9114d8e1-d350-4559-a4d0-09d44bd2eb36 New RevisionGUID=9AA10478-FFBE-4EEB-A836-8E4EC32E723A
+Change Managed Component Library Link : Designator=U5 Old VaultGUID=EF9826B0-7A94-41A0-BB28-292897F407F6 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=a25efd9f-891f-412d-82b9-b5bca20da700 New ItemGUID=2E6E2168-9EC8-4055-94E3-9149772017F1 Old RevisionGUID=9114d8e1-d350-4559-a4d0-09d44bd2eb36 New RevisionGUID=9AA10478-FFBE-4EEB-A836-8E4EC32E723A
+Change component parameters: Designator = "U2" ("U2"); Footprint = "FP-DGS0010A-IPC_A"; UniqueID = "\GKWIKAPX" ("\GKWIKAPX")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "VSSOP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Conversion Rate"; Value = "3300S/s"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1.02mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Integral Nonlinearity (INL)"; Value = "0.5LSB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Interface"; Value = "I2C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "3mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Power Dissipation"; Value = "900uW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Supply Voltage"; Value = "5.5V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Supply Voltage (DC)"; Value = "5.5V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Supply Voltage"; Value = "2V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Supply Voltage (DC)"; Value = "2V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Nominal Supply Current"; Value = "150uA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of A/D Converters"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Bits"; Value = "12"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Channels"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Converters"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Elements"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Inputs"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "250"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarity"; Value = "Bipolar"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Dissipation"; Value = "900uW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resolution"; Value = "12b"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Sampling Rate"; Value = "3.3KS/s"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply Type"; Value = "Single"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "3mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U5" ("U5"); Footprint = "FP-DGS0010A-IPC_A"; UniqueID = "\ABWONGAL" ("\ABWONGAL")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "VSSOP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Conversion Rate"; Value = "3300S/s"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1.02mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Integral Nonlinearity (INL)"; Value = "0.5LSB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Interface"; Value = "I2C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "3mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Power Dissipation"; Value = "900uW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Supply Voltage"; Value = "5.5V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Supply Voltage (DC)"; Value = "5.5V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Supply Voltage"; Value = "2V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Supply Voltage (DC)"; Value = "2V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Nominal Supply Current"; Value = "150uA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of A/D Converters"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Bits"; Value = "12"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Channels"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Converters"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Elements"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Inputs"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "250"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarity"; Value = "Bipolar"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Dissipation"; Value = "900uW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resolution"; Value = "12b"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Sampling Rate"; Value = "3.3KS/s"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply Type"; Value = "Single"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "3mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=C5E Pin=J3-1
+Added Pin To Net: NetName=C5R Pin=J3-2
+Added Pin To Net: NetName=C6E Pin=J3-3
+Added Pin To Net: NetName=C6R Pin=J3-4
+Added Pin To Net: NetName=C1E Pin=J6-1
+Added Pin To Net: NetName=C1R Pin=J6-2
+Added Pin To Net: NetName=C2E Pin=J6-3
+Added Pin To Net: NetName=C2R Pin=J6-4
+Change Net Name : Old Net Name=NetR14_1 New Net Name=NetR15_1
+Change Net Name : Old Net Name=NetR15_1 New Net Name=NetR16_1
