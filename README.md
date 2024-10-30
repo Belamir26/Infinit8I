@@ -29,6 +29,17 @@ IM ->
 Photografic Record ->
   Photos since our first design to our last!
 
+.
+.
+.
+
+Desarrollado por: Paul Benavides; PYBL2001@GMAIL.COM, Medellín 2024
+
+MIT LICENSE - Not distributed for commercial or medical use; research and education use encouraged.
+
+.
+.
+.
 
 
 
@@ -36,11 +47,8 @@ Photografic Record ->
 IT WAS AN AMAZING ADVENTURE THAT I ENJOYED EVERYDAY. I STARTED ONE YEAR AGO, I DONT HAVE WORD TO EXPRESS MY GRATITUTE TO YOU AND EVERYONE WHO CAN READ THIS!
 
 
-<<<<<<< HEAD
-=======
 I HOPE THE LIVE GIVE US OTHER APPROACH TO CONNECT US AGAIN!
 
->>>>>>> cba9e4d3a0087663fbc403a88b5665fcec8789c8
 I REMEMBER THE WORDS THAT I SAID TO DANIEL, ONE YEAR AGO, TO START THIS PROJECT:
   "Qué hay para la cabeza, pero pa pensar!"
 AND HERE WE ARE, WERE*
