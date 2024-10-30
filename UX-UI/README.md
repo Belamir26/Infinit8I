@@ -7,17 +7,23 @@ Instructions:
 There are two scripts!
 
 A)Infinite Plot
+
     This script is for make EMG plot in three possible ways
     Suchs as:
+    
         1. Full plot
         2. By channels
         3. Extracting with given time
 
 
 B) InfiniteV3
-    This a script to measure, acquire and plot the data from INFINIT8I
 
-    It works by threads and tkinter. The following steps would be: 1. Change to .EXE 2. Change to POO  3. Config menu to change the Times in sesions
+    This a script to measure, acquire and plot the data from INFINIT8I
+    It works by threads and tkinter. 
+    The following steps would be: 
+        1. Change to .EXE 
+        2. Change to POO  
+        3. Config menu to change the Times in sesions
 
     To start to plot, acquire or both, first it's necessary to conect the serial:
         COM -> Choose the Serial port (By link or Bluethooh Classic)
